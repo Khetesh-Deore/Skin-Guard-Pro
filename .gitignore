@@ -1,0 +1,40 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Uploaded user images
+static/uploads/
+
+# Model files (large files)
+*.h5
+*.hdf5
+*.model
+*.pb
+
+# TensorFlow logs / training checkpoints
+checkpoint/
+logs/
+*.ckpt*
+
+# Dataset files (large, should not be tracked)
+HAM10000/
+dataset/
+*.csv
+*.zip
+
+# IDE / Editor files
+.vscode/
+.idea/
+
+# Flask instance folder
+instance/
