@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Skin Guard Pro</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <h1>Skin Guard Pro: AI Skin Disease Detection</h1>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <label for="image">Upload Skin Image:</label>
+        <input type="file" name="image" accept="image/*" required><br><br>
+        <label for="symptoms">Enter Symptoms (comma-separated, e.g., itching, redness):</label>
+        <input type="text" name="symptoms" required><br><br>
+        <button type="submit">Analyze</button>
+    </form>
+</body>
+</html>
